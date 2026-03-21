@@ -5,58 +5,58 @@ export function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Symbiosis AI Hackathon 2026",
-      date: "Feb 11",
-      icon: <Code2 size={20} />,
-      desc: "My first hackathon. Built a working AI web app in just 2 hours using Lovable. Didn't win, but gained massive real-world building experience.",
+      title: "MNIST Digit Recognition",
+      date: "Nov 2025",
+      icon: <Database size={20} />,
+      desc: "My 'Replicate' project: built a machine learning model using Python and TensorFlow/Keras to recognize handwritten digits from scratch.",
       highlight: true
     },
     {
       id: 2,
-      title: "Harvard Business Case Study",
-      date: "TKS Event",
-      icon: <Briefcase size={20} />,
-      desc: "Analyzed a 23-page complex case document on Starbucks' strategy in China, presenting actionable insights.",
-      highlight: false
-    },
-    {
-      id: 3,
       title: "TKS Demo Day",
-      date: "Dec 7",
+      date: "Dec 7, 2025",
       icon: <Trophy size={20} />,
       desc: "Presented my core work and learnings to The Knowledge Society audience.",
       highlight: false
     },
     {
-      id: 4,
+      id: 3,
       title: "Xpanceo Mini-Challenge",
-      date: "TKS Sprint",
+      date: "Dec 13–20, 2025",
       icon: <Target size={20} />,
-      desc: "Completed an intense 1-week strategic challenge focusing on deep tech and execution.",
+      desc: "Completed an intense 1-week strategic challenge through TKS focusing on deep tech and team execution.",
+      highlight: false
+    },
+    {
+      id: 4,
+      title: "School Garden Project",
+      date: "Jan 2026",
+      icon: <Leaf size={20} />,
+      desc: "Led fundraising efforts and oversaw the growing of tomatoes, radishes, mint, carrots, and more.",
       highlight: false
     },
     {
       id: 5,
-      title: "MNIST Digit Recognition",
-      date: "ML Project",
-      icon: <Database size={20} />,
-      desc: "My 'Replicate' project: built a machine learning model using Python and TensorFlow/Keras to recognize handwritten digits.",
+      title: "Symbiosis AI Hackathon 2026",
+      date: "Feb 11, 2026",
+      icon: <Code2 size={20} />,
+      desc: "My first hackathon. Built a working AI web app in just 2 hours using Lovable. Didn't win, but gained massive real-world building experience.",
       highlight: true
     },
     {
       id: 6,
-      title: "School Garden Project",
-      date: "Leadership",
-      icon: <Leaf size={20} />,
-      desc: "Led fundraising efforts and cultivated tomatoes, radishes, mint, and carrots.",
+      title: "Harvard Business Case Study",
+      date: "Feb 2026",
+      icon: <Briefcase size={20} />,
+      desc: "Analyzed a 23-page case document on Starbucks' strategy in China through a TKS session, presenting actionable insights.",
       highlight: false
     },
     {
       id: 7,
       title: "Basketball Team Vice-Captain",
-      date: "Falcon House",
+      date: "Feb 2026",
       icon: <Users size={20} />,
-      desc: "Serving as Vice-Captain, leading practices and fostering team resilience and discipline.",
+      desc: "Made the school basketball team and took on the Vice-Captain role for Falcon House, leading with discipline and drive.",
       highlight: false
     }
   ];

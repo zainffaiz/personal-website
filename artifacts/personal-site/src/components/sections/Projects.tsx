@@ -7,8 +7,8 @@ export function Projects() {
       id: "lovable",
       title: "TKS x Lovable Challenge",
       tagline: "in collaboration with Lovable",
-      description: "Selected as one of 19 teams globally (out of hundreds) and one of 3 from Dubai. We worked on a real-world challenge through TKS in collaboration with Lovable. Our work is being reviewed by their executive team.",
-      date: "Presenting on April 1st, 2026",
+      description: "Out of hundreds of teams globally, we made it to the top 7. We worked on a real-world challenge through TKS in collaboration with Lovable, and now we're presenting directly to Lovable's executive team.",
+      date: "Top 7 Globally — Presenting to Lovable",
       image: "lovable-project.png",
       featured: true
     },
