@@ -1,0 +1,23 @@
+packages:
+  "framer-motion": "Smooth entry and scroll animations for a premium feel"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes safely"
+
+images:
+  - path: "artifacts/personal-site/public/images/hero-bg.png"
+    description: "Dark, elegant abstract gradient mesh background with deep charcoal tones and subtle warm amber light leaks"
+    aspect_ratio: "16:9"
+  - path: "artifacts/personal-site/public/images/zain-avatar.png"
+    description: "Minimalist, stylish illustrated avatar of a young male student innovator in dark mode lighting, subtle tech vibe"
+    aspect_ratio: "1:1"
+  - path: "artifacts/personal-site/public/images/routinely-app.png"
+    description: "Abstract UI mockup of a clean, dark mode habit and routine tracking mobile app"
+    aspect_ratio: "4:3"
+  - path: "artifacts/personal-site/public/images/lovable-project.png"
+    description: "Abstract representation of an AI collaboration project, glowing nodes, dark tech aesthetic"
+    aspect_ratio: "16:9"
+
+notes:
+  - This is a pure frontend landing page without backend API dependencies.
+  - All content is hardcoded as per the requirements.
+  - The design is strictly dark mode.

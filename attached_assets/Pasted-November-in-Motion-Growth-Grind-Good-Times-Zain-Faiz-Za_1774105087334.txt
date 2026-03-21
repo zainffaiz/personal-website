@@ -1,0 +1,94 @@
+November in Motion: Growth, Grind & Good Times
+Zain Faiz
+Zain Faiz
+7 min read
+·
+Dec 7, 2025
+
+
+
+
+
+Monthly Newsletter
+
+What I worked on this month
+This month, I worked on my Replicate, which was a MNIST handwritten digit recognition project built with Python and TensorFlow/Keras. The goal was to train a neural network to recognize digits (0–9) from the MNIST dataset. I completed the full build and training, added visualizations like accuracy/loss plots and a confusion matrix, and now the model can take input images and output predictions, though it occasionally misclassifies some digits.
+
+Thanks for reading Zain’s Substack! Subscribe for free to receive new posts and support my work.
+
+Working on Replicate helped me gain hands-on experience with data preprocessing, model training, and evaluating performance, while improving my Python and machine learning skills. Completing it was a major milestone in applying AI concepts practically and showed me the challenges and rewards of building a fully functional ML model from scratch.
+
+Events I attended
+A Journey into Space Engineering with Yousuf Faroukh
+Press enter or click to view image in full size
+
+On November 2nd, Yousuf Faroukh, A Space Systems Engineer who worked on the Sharjah-SAT-1, came to TKS to give a talk about his experiences and his projects, taking us on a journey through his life and how his passion developed for the field of space. He told us about the Sharjah-SAT-1 and his contributions to it.
+I also learnt that there are different types of satellites, which was very interesting to me because I used to love space (I still do, but not my main interest anymore).
+
+Building a Purpose-Driven Career in Science and Entrepreneurship with Monika Gostić
+On November 6th, Dr. Monika Gostić, a scientist and functional nutritionist, gave a talk about her work and her approach to health and nutrition. She took us through her journey as a functional nutritionist and educator and explained how she creates evidence-based programs for women and people with chronic conditions. I also learnt about her B.A.D. Method — Balanced, Authentic, Deserving — which was really interesting because it shows how science and compassion can work together to help people take control of their health.
+
+She also talked about how careers and passions can evolve, and how learning and mentorship don’t need to be limited by location. It was inspiring to see how she combines her expertise with empathy to make a real impact, which made me think about how science can be used to help people in meaningful ways.
+
+A talk by Connor Emeny
+Press enter or click to view image in full size
+
+On November 22nd, Connor Emeny, an endurance Athlete and the first person in the world to complete an Iron-Distance Triathlon (3.86km swim, 180km bike, 42.2km run) on all 7 continents, came to TKS to give a talk about mindset, pushing limits, and designing a life focused on growth. He took us through how discipline and mental toughness play a bigger role than hype or motivation, which was really eye-opening. I also learnt how small daily habits and consistency can make a huge difference, which made me rethink how seriously I approach my own goals.
+
+The way he explained mindset and resilience really stuck with me and influenced how I tackled the rest of the month. It was inspiring to see how building discipline can shape not just your work, but the way you live every day.
+
+A talk by Valentyn Volkov
+Press enter or click to view image in full size
+
+On November 25th, I had the chance to attend a talk by Valentyn Volkov, the founder of XPANCEO, the first deep-tech unicorn company in the UAE. It’s not every day you get to see the future of human augmentation up close.
+
+Valentyn walked us through their work on smart contact lenses for AR, explaining how they use a mix of ray and wave optics along with curved mirrors to project images directly onto the eye. I also learnt about their holographic lenses, biosensing platforms, and how the lenses can monitor health metrics like intraocular pressure and glucose levels.
+
+Write on Medium
+The talk was really eye-opening and showed me how fast deeptech is moving. It was inspiring to see how innovation can combine technology and human health, and it made me think about the possibilities of designing tech that genuinely changes lives.
+
+Accelerating National Transformation with AI — with Yasmine Rifai
+Press enter or click to view image in full size
+
+On November 26th, I attended a virtual talk by Yasmine Rifai, an AI & Digital Transformation Leader in the Government, about AI and responsible technology. She showed us that building AI isn’t just about innovation—it’s about accountability and ensuring tech actually helps people. I also learnt that the choices we make now will shape how future generations live, learn, and connect. Even online, her message really stuck. It reminded me that being a future builder isn’t just about what we can create, but what we should create, and how human-centered innovation can truly make an impact.
+
+Stories, Experiences & Lessons Learned
+This month was jam-packed with exams, events, sports days, and a really exciting field trip! tiring? Yes, but was it fun? YES
+
+Winter exams
+So these exams do mean a lot, especially for math, as this exam determines whether I will be in extended or core. I still haven’t got the results, but I’m confident I will get a decent grade. My biggest takeaway from this exam is that studies shouldn’t be measured by the time but by the quality (I learnt that the hard way)
+
+Sports day
+The day right after my last exam, we had sports day, and as the vice-captain of Falcon House, it was my duty to lead my house with passion, drive, and pure determination. Even with all the effort my house put in, we placed 3rd, which sounds good until you take into consideration that there are only 4 houses, but it was way better than last year, when we got last. But on Friday, 28th November, we had our inter-house match, where it was two houses combined, and we won that match 2–0 with an own goal and a penalty. A lesson I learnt from this is that sometimes losing isn’t all that bad because sometimes the journey there was fun and enjoyable.
+
+Field trip to Motiongate
+This trip was one of the best field trips I’ve ever been to. That day was filled with laughter, joy, and excitement. I screamed so much that day that I lost my voice. Overall, it was such a fun field trip which gave me the chance to enjoy with my friends after a long grind for the exams.
+
+My reflection on this Month
+Looking back at November, it was honestly a mix of chaos, progress, and a lot of learning. Between exams, field trips, sports days, and all the TKS talks, every day felt full, sometimes exhausting, but always valuable. I pushed through my replicate project, and even when things didn’t go perfectly, I learned how to manage time, priorities, and energy better.
+
+The talks and experiences this month gave me a lot to think about — about mindset, responsibility, and using my skills to actually make an impact. I feel like I ended the month more focused, more aware of how I want to approach my goals, and more inspired to take action rather than just plan. Overall, November reminded me that even when life gets hectic, growth happens when you stay engaged, stay curious, and push yourself a little further every day.
+
+I also realised the importance of balance — between work and rest, kindness and self-respect, productivity and fun. Some days were physically and mentally draining, but taking moments to enjoy time with friends, reflect, or just reset made a huge difference. November taught me that progress isn’t always about doing everything perfectly; it’s about showing up, learning from each experience, and keeping momentum, even through the messy, unpredictable days.
+
+Mindsets of this month
+1. Productivity & Grind — This month, I pushed through exams, replicate work, and outreach despite a packed schedule. I implemented this by setting daily goals, staying focused during study blocks, and keeping momentum even when tired or distracted.
+
+2. Growth & Learning — Inspired by the TKS talks and new experiences, I focused on learning from each situation. Whether it was a virtual session on AI, functional nutrition, or mindset, I reflected on the key lessons and applied them to my projects and daily habits.
+
+3. Boss Mentality — Stepping up during Sports Day and other responsibilities, I took charge instead of waiting for others. I planned teams, made decisions quickly, and led by example, showing that leadership is about action and ownership.
+
+4. Balance & Self-Respect — Between school, TKS, and social activities, I realized the importance of balancing work, rest, and relationships. I practiced this by intentionally taking breaks, spending time with friends, and setting boundaries to maintain energy and focus.
+
+5. Accountability & Discipline — From replicate progress to outreach emails, I held myself accountable to my goals. I tracked tasks, reviewed progress nightly, and reminded myself that showing up consistently matters more than perfection.
+
+6. Curiosity & Open-Mindedness — Attending talks encouraged me to stay curious and embrace new ideas. I implemented this by actively asking questions, reflecting on new perspectives, and exploring how I could integrate insights into my own work.
+
+These mindsets weren’t just ideas — they shaped how I approached November, helping me stay productive, lead effectively, and learn actively even during a hectic month.
+
+Shoutout to:
+My squad for listening to me and keeping me accountable
+All the speakers for inspiring me and changing my perspectives on my mindset
+To my friends for keeping me calm and happy through stressful times
+To my family for supporting me no matter what
+Thanks for reading! Can’t wait to share what’s next.
