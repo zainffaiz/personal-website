@@ -67,7 +67,7 @@ export function Hero() {
           <div className="absolute -inset-4 bg-gradient-to-tr from-primary/30 to-purple-500/10 rounded-[2.5rem] blur-2xl opacity-50"></div>
           <div className="relative aspect-square max-w-[420px] rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl bg-card">
             <img
-              src={`${import.meta.env.BASE_URL}images/zain-avatar.png`}
+              src={`${import.meta.env.BASE_URL}images/zain-avatar.JPG`}
               alt="Zain Faiz Avatar"
               className="w-full h-full object-cover"
             />
