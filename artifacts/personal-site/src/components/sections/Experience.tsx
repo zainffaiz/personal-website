@@ -53,10 +53,10 @@ export function Experience() {
     },
     {
       id: 7,
-      title: "Basketball Team Vice-Captain",
+      title: "Vice-Captain, Falcon House",
       date: "Feb 2026",
       icon: <Users size={20} />,
-      desc: "Made the school basketball team and took on the Vice-Captain role for Falcon House, leading with discipline and drive.",
+      desc: "Took on the Vice-Captain role for Falcon House, leading with discipline and drive.",
       highlight: false
     }
   ];
