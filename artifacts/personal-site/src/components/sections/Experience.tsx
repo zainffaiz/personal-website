@@ -5,6 +5,14 @@ export function Experience() {
   const experiences = [
     {
       id: 1,
+      title: "Vice-Captain, Falcon House",
+      date: "Sep 2025",
+      icon: <Users size={20} />,
+      desc: "Took on the Vice-Captain role for Falcon House, leading with discipline and drive.",
+      highlight: false
+    },
+    {
+      id: 2,
       title: "MNIST Digit Recognition",
       date: "Nov 2025",
       icon: <Database size={20} />,
@@ -12,7 +20,7 @@ export function Experience() {
       highlight: true
     },
     {
-      id: 2,
+      id: 3,
       title: "TKS Demo Day",
       date: "Dec 7, 2025",
       icon: <Trophy size={20} />,
@@ -20,7 +28,7 @@ export function Experience() {
       highlight: false
     },
     {
-      id: 3,
+      id: 4,
       title: "Xpanceo Mini-Challenge",
       date: "Dec 13–20, 2025",
       icon: <Target size={20} />,
@@ -28,7 +36,7 @@ export function Experience() {
       highlight: false
     },
     {
-      id: 4,
+      id: 5,
       title: "School Garden Project",
       date: "Jan 2026",
       icon: <Leaf size={20} />,
@@ -36,7 +44,7 @@ export function Experience() {
       highlight: false
     },
     {
-      id: 5,
+      id: 6,
       title: "Symbiosis AI Hackathon 2026",
       date: "Feb 11, 2026",
       icon: <Code2 size={20} />,
@@ -44,19 +52,11 @@ export function Experience() {
       highlight: true
     },
     {
-      id: 6,
+      id: 7,
       title: "Harvard Business Case Study",
       date: "Feb 2026",
       icon: <Briefcase size={20} />,
       desc: "Analyzed a 23-page case document on Starbucks' strategy in China through a TKS session, presenting actionable insights.",
-      highlight: false
-    },
-    {
-      id: 7,
-      title: "Vice-Captain, Falcon House",
-      date: "Feb 2026",
-      icon: <Users size={20} />,
-      desc: "Took on the Vice-Captain role for Falcon House, leading with discipline and drive.",
       highlight: false
     }
   ];
