@@ -16,6 +16,7 @@ interface ExperienceItem {
   desc: string;
   highlight: boolean;
   links?: ExperienceLink[];
+  image?: string;
 }
 
 export function Experience() {
@@ -37,6 +38,7 @@ export function Experience() {
       icon: <Database size={20} />,
       desc: "My 'Replicate' project: built a machine learning model using Python and TensorFlow/Keras to recognize handwritten digits from scratch.",
       highlight: true,
+      image: "project-mnist.png",
       links: [
         {
           label: "Read the Article",
@@ -104,7 +106,8 @@ export function Experience() {
       date: "Mar 2026",
       icon: <Database size={20} />,
       desc: "Built an NLP model trained on the GoEmotions dataset that analyzes a sentence and predicts its emotional tone across 10 emotions — joy, sadness, anger, fear, surprise, and more. A deep-dive into how transformer-based models interpret emotional signals in text.",
-      highlight: true
+      highlight: true,
+      image: "project-emotion-classifier.png"
     },
     {
       id: 10,
@@ -156,6 +159,15 @@ export function Experience() {
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-3">{exp.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{exp.desc}</p>
+                {exp.image && (
+                  <div className="mt-4 rounded-xl overflow-hidden border border-black/[0.08]">
+                    <img
+                      src={`${import.meta.env.BASE_URL}images/${exp.image}`}
+                      alt={exp.title}
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
+                )}
                 {exp.links && (
                   <p className="text-xs text-primary/70 mt-3 font-medium">Click to see links →</p>
                 )}
