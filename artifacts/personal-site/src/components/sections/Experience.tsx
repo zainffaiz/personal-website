@@ -215,7 +215,7 @@ export function Experience() {
             </motion.div>
           ))}
           {/* Centered line for desktop */}
-          <div className="hidden md:block absolute top-0 bottom-0 left-1/2 -translate-x-px w-[2px] bg-white/10 z-0"></div>
+          <div className="hidden md:block absolute top-0 bottom-0 left-1/2 -translate-x-px w-[2px] bg-black/[0.12] z-0"></div>
         </div>
       </div>
     </section>
