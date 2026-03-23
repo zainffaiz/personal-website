@@ -1,8 +1,27 @@
-import { motion } from "framer-motion";
-import { Trophy, Code2, Briefcase, Target, Database, Leaf, Users, Sparkles } from "lucide-react";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Trophy, Code2, Briefcase, Target, Database, Leaf, Users, Sparkles, FileText, Youtube, X } from "lucide-react";
+
+interface ExperienceLink {
+  label: string;
+  url: string;
+  icon: React.ReactNode;
+}
+
+interface ExperienceItem {
+  id: number;
+  title: string;
+  date: string;
+  icon: React.ReactNode;
+  desc: string;
+  highlight: boolean;
+  links?: ExperienceLink[];
+}
 
 export function Experience() {
-  const experiences = [
+  const [openPopup, setOpenPopup] = useState<number | null>(null);
+
+  const experiences: ExperienceItem[] = [
     {
       id: 1,
       title: "Vice-Captain, Falcon House",
@@ -17,7 +36,19 @@ export function Experience() {
       date: "Nov 2025",
       icon: <Database size={20} />,
       desc: "My 'Replicate' project: built a machine learning model using Python and TensorFlow/Keras to recognize handwritten digits from scratch.",
-      highlight: true
+      highlight: true,
+      links: [
+        {
+          label: "Read the Article",
+          url: "https://medium.com/@zainffaiz/understanding-how-machines-learn-building-a-neural-network-for-handwritten-digit-recognition-e7c0a3772cc1",
+          icon: <FileText size={15} />
+        },
+        {
+          label: "Watch the Video",
+          url: "https://www.youtube.com/watch?v=7C_Yu6adJe8",
+          icon: <Youtube size={15} />
+        }
+      ]
     },
     {
       id: 3,
@@ -112,9 +143,12 @@ export function Experience() {
                 {exp.icon}
               </div>
 
-              <div className={`p-6 rounded-2xl bg-white/5 border transition-all duration-300 hover:-translate-y-1 hover:bg-white/10 ${
-                exp.highlight ? "border-primary/30 shadow-[0_4px_20px_-5px_rgba(249,115,22,0.15)]" : "border-white/5"
-              }`}>
+              <div
+                onClick={() => exp.links ? setOpenPopup(openPopup === exp.id ? null : exp.id) : null}
+                className={`p-6 rounded-2xl bg-white/5 border transition-all duration-300 hover:-translate-y-1 hover:bg-white/10 ${
+                  exp.highlight ? "border-primary/30 shadow-[0_4px_20px_-5px_rgba(249,115,22,0.15)]" : "border-white/5"
+                } ${exp.links ? "cursor-pointer" : ""}`}
+              >
                 <div className={`text-xs font-bold uppercase tracking-wider mb-2 ${
                   exp.highlight ? "text-primary" : "text-muted-foreground"
                 }`}>
@@ -122,7 +156,50 @@ export function Experience() {
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-3">{exp.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{exp.desc}</p>
+                {exp.links && (
+                  <p className="text-xs text-primary/70 mt-3 font-medium">Click to see links →</p>
+                )}
               </div>
+
+              {/* Popup */}
+              <AnimatePresence>
+                {openPopup === exp.id && exp.links && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -8, scale: 0.95 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: -8, scale: 0.95 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute z-50 mt-2 w-full left-0 md:left-auto"
+                  >
+                    <div className="bg-card border border-primary/30 rounded-2xl p-4 shadow-xl shadow-black/40">
+                      <div className="flex items-center justify-between mb-3">
+                        <span className="text-xs font-bold uppercase tracking-wider text-primary">Links</span>
+                        <button
+                          onClick={(e) => { e.stopPropagation(); setOpenPopup(null); }}
+                          className="text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                          <X size={14} />
+                        </button>
+                      </div>
+                      <div className="flex flex-col gap-2">
+                        {exp.links.map((link, i) => (
+                          <a
+                            key={i}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            className="flex items-center gap-2 text-sm text-foreground/80 hover:text-primary transition-colors py-1.5 px-2 rounded-lg hover:bg-white/5"
+                          >
+                            <span className="text-primary">{link.icon}</span>
+                            {link.label}
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </motion.div>
           ))}
           {/* Centered line for desktop */}
