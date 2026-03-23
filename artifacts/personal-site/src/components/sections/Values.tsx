@@ -31,7 +31,7 @@ export function Values() {
   ];
 
   return (
-    <section className="py-24 border-t border-white/5">
+    <section className="py-24 border-t border-black/[0.07]">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -50,9 +50,9 @@ export function Values() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="flex flex-col items-center p-6 rounded-2xl bg-white/5 border border-white/5 w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] max-w-[320px] hover:bg-white/10 hover:border-white/20 transition-colors text-center"
+              className="flex flex-col items-center p-6 rounded-2xl bg-black/[0.04] border border-black/[0.07] w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] max-w-[320px] hover:bg-black/[0.07] hover:border-black/[0.15] transition-colors text-center"
             >
-              <div className="w-12 h-12 rounded-full bg-background border border-white/10 flex items-center justify-center text-primary mb-4 shadow-inner">
+              <div className="w-12 h-12 rounded-full bg-background border border-black/[0.10] flex items-center justify-center text-primary mb-4 shadow-inner">
                 {value.icon}
               </div>
               <h3 className="font-bold text-foreground mb-2">{value.title}</h3>

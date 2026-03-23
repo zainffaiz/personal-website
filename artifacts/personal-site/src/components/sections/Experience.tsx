@@ -139,14 +139,14 @@ export function Experience() {
               {/* Timeline dot */}
               <div className={`absolute top-0 w-10 h-10 rounded-full flex items-center justify-center border-4 border-background bg-card shadow-lg z-10 ${
                 index % 2 === 0 ? "left-[-20px] md:left-auto md:-right-5" : "left-[-20px] md:-left-5"
-              } ${exp.highlight ? "text-primary border-primary/20" : "text-muted-foreground border-white/10"}`}>
+              } ${exp.highlight ? "text-primary border-primary/20" : "text-muted-foreground border-black/[0.10]"}`}>
                 {exp.icon}
               </div>
 
               <div
                 onClick={() => exp.links ? setOpenPopup(openPopup === exp.id ? null : exp.id) : null}
-                className={`p-6 rounded-2xl bg-white/5 border transition-all duration-300 hover:-translate-y-1 hover:bg-white/10 ${
-                  exp.highlight ? "border-primary/30 shadow-[0_4px_20px_-5px_rgba(249,115,22,0.15)]" : "border-white/5"
+                className={`p-6 rounded-2xl bg-black/[0.04] border transition-all duration-300 hover:-translate-y-1 hover:bg-black/[0.07] ${
+                  exp.highlight ? "border-primary/30 shadow-[0_4px_20px_-5px_rgba(214,82,61,0.15)]" : "border-black/[0.07]"
                 } ${exp.links ? "cursor-pointer" : ""}`}
               >
                 <div className={`text-xs font-bold uppercase tracking-wider mb-2 ${
@@ -189,7 +189,7 @@ export function Experience() {
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={(e) => e.stopPropagation()}
-                            className="flex items-center gap-2 text-sm text-foreground/80 hover:text-primary transition-colors py-1.5 px-2 rounded-lg hover:bg-white/5"
+                            className="flex items-center gap-2 text-sm text-foreground/80 hover:text-primary transition-colors py-1.5 px-2 rounded-lg hover:bg-black/[0.05]"
                           >
                             <span className="text-primary">{link.icon}</span>
                             {link.label}

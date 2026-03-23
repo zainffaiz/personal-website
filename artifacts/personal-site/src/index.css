@@ -51,59 +51,59 @@
 }
 
 :root {
-  --button-outline: rgba(255,255,255, .10);
-  --badge-outline: rgba(255,255,255, .05);
+  --button-outline: rgba(0,0,0, .10);
+  --badge-outline: rgba(0,0,0, .05);
 
   --opaque-button-border-intensity: 9;
 
-  --elevate-1: rgba(255,255,255, .04);
-  --elevate-2: rgba(255,255,255, .09);
+  --elevate-1: rgba(0,0,0, .04);
+  --elevate-2: rgba(0,0,0, .08);
 
-  /* Forced Dark Mode Theme */
-  --background: 240 10% 4%;
-  --foreground: 0 0% 98%;
-  --border: 240 6% 16%;
+  /* Warm Off-White Light Theme */
+  --background: 38 28% 96%;
+  --foreground: 240 15% 12%;
+  --border: 38 14% 84%;
   
-  --card: 240 10% 6%;
-  --card-foreground: 0 0% 98%;
-  --card-border: 240 6% 16%;
+  --card: 38 18% 93%;
+  --card-foreground: 240 15% 12%;
+  --card-border: 38 14% 84%;
 
-  --sidebar: 240 10% 6%;
-  --sidebar-foreground: 0 0% 98%;
-  --sidebar-border: 240 6% 16%;
-  --sidebar-primary: 32 95% 55%;
-  --sidebar-primary-foreground: 240 10% 4%;
-  --sidebar-accent: 240 6% 12%;
-  --sidebar-accent-foreground: 0 0% 98%;
-  --sidebar-ring: 32 95% 55%;
+  --sidebar: 38 18% 93%;
+  --sidebar-foreground: 240 15% 12%;
+  --sidebar-border: 38 14% 84%;
+  --sidebar-primary: 8 65% 54%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 38 14% 88%;
+  --sidebar-accent-foreground: 240 15% 12%;
+  --sidebar-ring: 8 65% 54%;
 
-  --popover: 240 10% 6%;
-  --popover-foreground: 0 0% 98%;
-  --popover-border: 240 6% 16%;
+  --popover: 38 22% 97%;
+  --popover-foreground: 240 15% 12%;
+  --popover-border: 38 14% 84%;
 
-  --primary: 32 95% 55%;
-  --primary-foreground: 240 10% 4%;
+  --primary: 8 65% 54%;
+  --primary-foreground: 0 0% 100%;
 
-  --secondary: 240 6% 12%;
-  --secondary-foreground: 0 0% 98%;
+  --secondary: 38 14% 88%;
+  --secondary-foreground: 240 15% 12%;
 
-  --muted: 240 6% 12%;
-  --muted-foreground: 240 5% 65%;
+  --muted: 38 12% 89%;
+  --muted-foreground: 240 8% 46%;
 
-  --accent: 32 95% 55%;
-  --accent-foreground: 0 0% 98%;
+  --accent: 8 65% 54%;
+  --accent-foreground: 0 0% 100%;
 
-  --destructive: 0 84% 60%;
-  --destructive-foreground: 0 0% 98%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
 
-  --input: 240 6% 16%;
-  --ring: 32 95% 55%;
+  --input: 38 14% 84%;
+  --ring: 8 65% 54%;
   
-  --chart-1: 32 95% 55%;
-  --chart-2: 240 6% 16%;
-  --chart-3: 0 0% 98%;
-  --chart-4: 240 5% 65%;
-  --chart-5: 240 10% 4%;
+  --chart-1: 8 65% 54%;
+  --chart-2: 38 14% 84%;
+  --chart-3: 240 15% 12%;
+  --chart-4: 240 8% 46%;
+  --chart-5: 38 28% 96%;
 
   --app-font-sans: 'DM Sans', sans-serif;
   --app-font-serif: Georgia, serif;

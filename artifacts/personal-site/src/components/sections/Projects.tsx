@@ -24,7 +24,7 @@ export function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-24 bg-white/[0.02] border-y border-white/5">
+    <section id="projects" className="py-24 bg-black/[0.03] border-y border-black/[0.07]">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
@@ -43,7 +43,7 @@ export function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative rounded-3xl overflow-hidden bg-card border border-white/10 hover:border-primary/50 transition-all duration-500"
+              className="group relative rounded-3xl overflow-hidden bg-card border border-black/[0.10] hover:border-primary/50 transition-all duration-500"
             >
               {/* Image Container */}
               <div className="relative h-[250px] sm:h-[300px] w-full overflow-hidden">
@@ -55,7 +55,7 @@ export function Projects() {
                 />
                 
                 {project.featured && (
-                  <div className="absolute top-6 left-6 z-20 flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/50 backdrop-blur-md border border-white/10 text-xs font-medium text-white shadow-lg">
+                  <div className="absolute top-6 left-6 z-20 flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/50 backdrop-blur-md border border-white/20 text-xs font-medium text-white shadow-lg">
                     <Sparkles size={14} className="text-primary" />
                     Global Challenge
                   </div>
@@ -68,7 +68,7 @@ export function Projects() {
                   <span className="text-primary text-sm font-bold tracking-wider uppercase">
                     {project.tagline}
                   </span>
-                  <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
+                  <div className="w-10 h-10 rounded-full bg-black/[0.06] flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
                     <ArrowUpRight size={20} />
                   </div>
                 </div>

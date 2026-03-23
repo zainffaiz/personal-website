@@ -68,7 +68,7 @@ export function About() {
             {skills.map((skill, index) => (
               <div 
                 key={index} 
-                className={`p-6 rounded-2xl bg-white/5 border border-white/5 hover:border-primary/30 transition-all duration-300 hover:bg-white/10 ${index === 2 ? 'sm:col-span-2' : ''}`}
+                className={`p-6 rounded-2xl bg-black/[0.04] border border-black/[0.07] hover:border-primary/30 transition-all duration-300 hover:bg-black/[0.07] ${index === 2 ? 'sm:col-span-2' : ''}`}
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                   {skill.icon}

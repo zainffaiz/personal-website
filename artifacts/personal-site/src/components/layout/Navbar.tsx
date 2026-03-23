@@ -26,7 +26,7 @@ export function Navbar() {
     <header
       className={cn(
         "fixed top-0 inset-x-0 z-50 transition-all duration-300 py-4",
-        isScrolled ? "bg-background/80 backdrop-blur-md border-b border-white/5 shadow-sm" : "bg-transparent"
+        isScrolled ? "bg-background/80 backdrop-blur-md border-b border-black/[0.07] shadow-sm" : "bg-transparent"
       )}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
@@ -49,7 +49,7 @@ export function Navbar() {
             href="https://www.linkedin.com/in/zain-faiz/"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-5 py-2 text-sm font-semibold rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-[0_0_15px_-3px_rgba(249,115,22,0.3)] hover:shadow-[0_0_20px_0px_rgba(249,115,22,0.5)]"
+            className="px-5 py-2 text-sm font-semibold rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-[0_0_15px_-3px_rgba(214,82,61,0.3)] hover:shadow-[0_0_20px_0px_rgba(214,82,61,0.5)]"
           >
             Connect
           </a>
@@ -72,7 +72,7 @@ export function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 w-full bg-card border-b border-white/5 shadow-xl md:hidden flex flex-col p-6 gap-4"
+            className="absolute top-full left-0 w-full bg-card border-b border-black/[0.07] shadow-md md:hidden flex flex-col p-6 gap-4"
           >
             {navLinks.map((link) => (
                <a

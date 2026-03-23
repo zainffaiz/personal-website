@@ -61,7 +61,7 @@ export function Newsletters() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="group block p-8 rounded-2xl bg-background border border-white/10 hover:border-primary/40 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+              className="group block p-8 rounded-2xl bg-background border border-black/[0.10] hover:border-primary/40 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
             >
               <div className="text-sm text-muted-foreground mb-3">{article.date}</div>
               <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">

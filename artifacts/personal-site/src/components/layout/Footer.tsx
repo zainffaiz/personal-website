@@ -15,7 +15,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="border-t border-white/5 py-12 mt-24">
+    <footer className="border-t border-black/[0.07] py-12 mt-24">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
           <h2 className="font-display text-2xl font-bold">Zain Faiz</h2>
@@ -30,7 +30,7 @@ export function Footer() {
             href="https://www.linkedin.com/in/zain-faiz/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors p-2 bg-white/5 rounded-full hover:bg-white/10"
+            className="text-muted-foreground hover:text-primary transition-colors p-2 bg-black/[0.04] rounded-full hover:bg-black/[0.08]"
             aria-label="LinkedIn"
           >
             <Linkedin size={20} />
@@ -39,7 +39,7 @@ export function Footer() {
             href="https://www.youtube.com/@zainffaiz"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors p-2 bg-white/5 rounded-full hover:bg-white/10"
+            className="text-muted-foreground hover:text-primary transition-colors p-2 bg-black/[0.04] rounded-full hover:bg-black/[0.08]"
             aria-label="YouTube"
           >
             <Youtube size={20} />
@@ -49,7 +49,7 @@ export function Footer() {
           <div className="relative">
             <button
               onClick={() => setShowEmail(!showEmail)}
-              className="text-muted-foreground hover:text-primary transition-colors p-2 bg-white/5 rounded-full hover:bg-white/10"
+              className="text-muted-foreground hover:text-primary transition-colors p-2 bg-black/[0.04] rounded-full hover:bg-black/[0.08]"
               aria-label="Email"
             >
               <Mail size={20} />
@@ -64,7 +64,7 @@ export function Footer() {
                   transition={{ duration: 0.18 }}
                   className="absolute bottom-full right-0 mb-3 z-50"
                 >
-                  <div className="bg-card border border-white/10 rounded-2xl px-4 py-3 shadow-xl shadow-black/40 flex items-center gap-3 whitespace-nowrap">
+                  <div className="bg-card border border-black/[0.10] rounded-2xl px-4 py-3 shadow-xl shadow-black/10 flex items-center gap-3 whitespace-nowrap">
                     <span className="text-sm text-foreground font-medium">{EMAIL}</span>
                     <button
                       onClick={handleCopy}
@@ -88,7 +88,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-white/5 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-xs text-muted-foreground">
+      <div className="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-black/[0.07] text-center md:text-left flex flex-col md:flex-row justify-between items-center text-xs text-muted-foreground">
         <p>© {new Date().getFullYear()} Zain Faiz. All rights reserved.</p>
         <p className="mt-2 md:mt-0">Built with intention.</p>
       </div>
