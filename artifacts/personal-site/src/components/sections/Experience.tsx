@@ -58,6 +58,22 @@ export function Experience() {
       icon: <Briefcase size={20} />,
       desc: "Analyzed a 23-page case document on Starbucks' strategy in China through a TKS session, presenting actionable insights.",
       highlight: false
+    },
+    {
+      id: 8,
+      title: "Text Emotion Classifier",
+      date: "Mar 2026",
+      icon: <Database size={20} />,
+      desc: "Built an NLP model trained on the GoEmotions dataset that analyzes a sentence and predicts its emotional tone across 10 emotions — joy, sadness, anger, fear, surprise, and more. A deep-dive into how transformer-based models interpret emotional signals in text.",
+      highlight: true
+    },
+    {
+      id: 9,
+      title: "Started Building Routinely",
+      date: "Mar 2026",
+      icon: <Target size={20} />,
+      desc: "Began developing Routinely, a routine tracking app designed to make habit formation seamless and help users build real discipline.",
+      highlight: true
     }
   ];
 
