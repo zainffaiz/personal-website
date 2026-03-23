@@ -52,13 +52,8 @@ export function About() {
             
             <div className="mt-10 flex gap-4">
               <div className="flex flex-col">
-                <span className="text-3xl font-display font-bold text-foreground">742</span>
-                <span className="text-sm text-muted-foreground">Followers</span>
-              </div>
-              <div className="w-px h-12 bg-white/10 mx-4"></div>
-              <div className="flex flex-col">
                 <span className="text-3xl font-display font-bold text-foreground">500+</span>
-                <span className="text-sm text-muted-foreground">Connections</span>
+                <span className="text-sm text-muted-foreground">Connections on LinkedIn</span>
               </div>
             </div>
           </motion.div>
