@@ -124,7 +124,7 @@ export function Experience() {
           <p className="text-lg text-muted-foreground">The sprints, projects, and roles shaping my journey.</p>
         </div>
 
-        <div className="relative border-l-2 border-white/10 ml-4 md:ml-0 md:pl-0">
+        <div className="relative ml-4 md:ml-0 md:pl-0">
           {experiences.map((exp, index) => (
             <motion.div
               key={exp.id}
@@ -202,8 +202,6 @@ export function Experience() {
               </AnimatePresence>
             </motion.div>
           ))}
-          {/* Centered line for desktop */}
-          <div className="hidden md:block absolute top-0 bottom-0 left-1/2 -translate-x-px w-[2px] bg-white/10 z-0"></div>
         </div>
       </div>
     </section>
