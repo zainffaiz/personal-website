@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Linkedin, Mail, Youtube } from "lucide-react";
 
 export function Footer() {
   return (
@@ -21,6 +21,15 @@ export function Footer() {
             aria-label="LinkedIn"
           >
             <Linkedin size={20} />
+          </a>
+          <a
+            href="https://www.youtube.com/@zainffaiz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors p-2 bg-white/5 rounded-full hover:bg-white/10"
+            aria-label="YouTube"
+          >
+            <Youtube size={20} />
           </a>
           <a
             href="#"
