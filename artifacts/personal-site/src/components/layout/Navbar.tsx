@@ -46,7 +46,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="https://linkedin.com/in/zainf"
+            href="https://www.linkedin.com/in/zain-faiz/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 text-sm font-semibold rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-[0_0_15px_-3px_rgba(249,115,22,0.3)] hover:shadow-[0_0_20px_0px_rgba(249,115,22,0.5)]"
@@ -85,7 +85,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="https://linkedin.com/in/zainf"
+              href="https://www.linkedin.com/in/zain-faiz/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 px-5 py-3 text-center font-semibold rounded-xl bg-primary text-primary-foreground"

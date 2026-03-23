@@ -41,7 +41,7 @@ export function Newsletters() {
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">Documenting the Journey.</h2>
           </div>
           <a 
-            href="https://medium.com" 
+            href="https://medium.com/@zainffaiz" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-foreground font-medium hover:text-primary transition-colors pb-2"
