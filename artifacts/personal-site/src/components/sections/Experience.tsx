@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Trophy, Code2, Briefcase, Target, Database, Leaf, Users } from "lucide-react";
+import { Trophy, Code2, Briefcase, Target, Database, Leaf, Users, Sparkles } from "lucide-react";
 
 export function Experience() {
   const experiences = [
@@ -61,6 +61,14 @@ export function Experience() {
     },
     {
       id: 8,
+      title: "TKS x Lovable Challenge",
+      date: "Feb – Mar 2026",
+      icon: <Sparkles size={20} />,
+      desc: "Selected as one of the top 7 teams globally out of hundreds. Worked on a real-world challenge through TKS in collaboration with Lovable — now presenting directly to their executive team.",
+      highlight: true
+    },
+    {
+      id: 9,
       title: "Text Emotion Classifier",
       date: "Mar 2026",
       icon: <Database size={20} />,
@@ -68,7 +76,7 @@ export function Experience() {
       highlight: true
     },
     {
-      id: 9,
+      id: 10,
       title: "Started Building Routinely",
       date: "Mar 2026",
       icon: <Target size={20} />,
