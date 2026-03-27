@@ -16,7 +16,7 @@ export function Projects() {
       id: "routinely",
       title: "Routinely",
       tagline: "Routine Tracking App",
-      description: "A comprehensive routine tracking application I've built to help users forge discipline. Designed with a clean, intuitive interface to make habit formation seamless and rewarding.",
+      description: "A comprehensive routine tracking application I'm building to help users forge discipline. Designed with a clean, intuitive interface to make habit formation seamless and rewarding.",
       date: "Active Project",
       image: "routinely-app.png",
       featured: false
