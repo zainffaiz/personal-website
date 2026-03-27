@@ -6,25 +6,25 @@ export function Newsletters() {
     {
       title: "February on Fire: Challenges, Clarity & Coming Through",
       date: "Feb 2026",
-      link: "https://lnkd.in/daXatg9D",
+      link: "https://medium.com/@zainffaiz/february-on-fire-challenges-clarity-coming-through-ac54e933e71a",
       excerpt: "Reflecting on my first hackathon and the clarity that comes from intense building sprints."
     },
     {
       title: "January in Motion: Resilience, Reality & Resolve",
       date: "Jan 2026",
-      link: "https://lnkd.in/dqNUyq49",
+      link: "https://medium.com/@zainffaiz/january-in-motion-resilience-reality-resolve-21ee3226302b",
       excerpt: "Setting the tone for the year with a focus on deep technical learning and execution."
     },
     {
       title: "December Unleashed: Momentum, Mindset & Memories",
       date: "Dec 2025",
-      link: "#",
+      link: "https://medium.com/@zainffaiz/december-unleashed-momentum-mindset-memories-30d2fbc8c7c6",
       excerpt: "Wrapping up the year with the TKS Demo Day and monumental shifts in mindset."
     },
     {
       title: "November in Motion: Growth, Grind & Good Times",
       date: "Nov 2025",
-      link: "#",
+      link: "https://medium.com/@zainffaiz/november-in-motion-growth-grind-good-times-bf66cc0fbaea",
       excerpt: "The grind of consistency and learning to balance school with building."
     }
   ];
