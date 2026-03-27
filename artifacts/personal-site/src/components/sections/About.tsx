@@ -21,7 +21,7 @@ export function About() {
   ];
 
   return (
-    <section id="about" className="py-24 relative">
+    <section id="about" className="pt-10 pb-24 md:py-24 relative">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           
