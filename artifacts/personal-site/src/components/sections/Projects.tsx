@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Calendar, Sparkles } from "lucide-react";
+import { Calendar, Sparkles } from "lucide-react";
 
 export function Projects() {
   const projects = [
@@ -64,20 +64,17 @@ export function Projects() {
 
               {/* Content */}
               <div className="p-8 relative z-20 bg-gradient-to-t from-card via-card to-card/90">
-                <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center mb-2">
                   <span className="text-primary text-sm font-bold tracking-wider uppercase">
                     {project.tagline}
                   </span>
-                  <div className="w-10 h-10 rounded-full bg-black/[0.06] flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
-                    <ArrowUpRight size={20} />
-                  </div>
                 </div>
                 
                 <h3 className="text-2xl font-bold text-foreground mb-4 font-display">
                   {project.title}
                 </h3>
                 
-                <p className="text-muted-foreground mb-6 line-clamp-3">
+                <p className="text-muted-foreground mb-6">
                   {project.description}
                 </p>
 
