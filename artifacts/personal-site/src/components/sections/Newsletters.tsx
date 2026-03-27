@@ -67,12 +67,9 @@ export function Newsletters() {
               <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                 {article.title}
               </h3>
-              <p className="text-muted-foreground text-sm line-clamp-2">
+              <p className="text-muted-foreground text-sm">
                 {article.excerpt}
               </p>
-              <div className="mt-6 flex items-center gap-2 text-sm font-semibold text-foreground/70 group-hover:text-primary transition-colors">
-                Read Article <ExternalLink size={14} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
-              </div>
             </motion.a>
           ))}
         </div>
