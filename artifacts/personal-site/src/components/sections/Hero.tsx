@@ -39,7 +39,7 @@ export function Hero() {
             >
               <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-2xl overflow-hidden border border-black/[0.10] shadow-md">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/zain-avatar.JPG`}
+                  src={`${import.meta.env.BASE_URL}images/zain-avatar.jpg`}
                   alt="Zain Faiz"
                   className="w-full h-full object-cover"
                 />
@@ -77,7 +77,7 @@ export function Hero() {
           <div className="absolute -inset-4 bg-gradient-to-tr from-primary/30 to-purple-500/10 rounded-[2.5rem] blur-2xl opacity-50"></div>
           <div className="relative aspect-square max-w-[420px] rounded-[2rem] overflow-hidden border border-black/[0.10] shadow-2xl bg-card">
             <img
-              src={`${import.meta.env.BASE_URL}images/zain-avatar.JPG`}
+              src={`${import.meta.env.BASE_URL}images/zain-avatar.jpg`}
               alt="Zain Faiz Avatar"
               className="w-full h-full object-cover"
             />
